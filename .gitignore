@@ -1,0 +1,10 @@
+/.env
+/vendor/
+/database/*.sqlite*
+/AGENTS.md
+
+# File runtime Laravel. Subfolder lain di storage/ dan bootstrap/cache/
+# memiliki aturan sendiri agar file .gitignore tetap ikut di Git.
+/storage/framework/maintenance.php
+/storage/framework/cache/*
+!/storage/framework/cache/data/
