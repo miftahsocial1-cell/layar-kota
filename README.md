@@ -25,4 +25,4 @@ php artisan migrate --seed
 php artisan serve
 ```
 
-Buka [Layar Kota](http://127.0.0.1:8000). Jika PHP XAMPP belum ada di PATH, gunakan `& 'C:\xampp\php\php.exe'` sebagai pengganti `php` pada perintah Artisan.
+Buka [Layar Kota](http://127.0.0.1:8000) setelah server Laravel berjalan.
